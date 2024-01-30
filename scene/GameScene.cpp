@@ -256,7 +256,6 @@ void GameScene::GameOverUpdate() {
 	if (sceneMode_ == 4) {
 		if (input_->TriggerKey(DIK_RETURN)) {
 			flag_ = true;
-
 			black_ = 0;
 		}
 		if (flag_ == true && black_ >= 1.0f) {
